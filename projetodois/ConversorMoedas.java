@@ -73,15 +73,10 @@ public class ConversorMoedas {
 
          System.out.println("Digite o valor: ");
          amount = moeada.nextDouble();
-        
-
 
             int moedaNativa  = findCurrencyIndex(fromCurrency);
 
             int moedaConversao = findCurrencyIndex(toCurrency);
-
-            
-
             double amountToUSD = amount / taxas[moedaNativa];
 
             convertido = amountToUSD * taxas[moedaConversao];
