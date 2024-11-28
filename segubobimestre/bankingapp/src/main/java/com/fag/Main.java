@@ -3,15 +3,12 @@ package com.fag;
 import com.fag.domain.dto.LoginDTO;
 import com.fag.domain.dto.UserAccountDTO;
 import com.fag.infra.celcoin.CelcoinBassRepository;
-//import com.fag.domain.repositories.IUserInterface;
 import com.fag.infra.console.ConsoleUI;
 import com.fag.infra.pg.PgSupabase;
 import com.fag.infra.pg.PostgresConnection;
-//import com.fag.infra.postgres.PostgresConnection;
 import com.fag.infra.swing.SwingUserInterface;
 import com.fag.infra.testdb.UserTestDBRepository;
-//import com.fag.infra.testdb.UserTestDBRepository;
-//import com.fag.service.Application;
+
 import com.fag.service.BankingService;
 
 public class Main {

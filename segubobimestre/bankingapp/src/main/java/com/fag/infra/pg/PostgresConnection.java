@@ -13,12 +13,12 @@ public class PostgresConnection {
     private PostgresConnection() {
         System.out.println("Realizando conexão banco PG/SUPABASE🔌");
 
-        //Url e informações do seu banco no supabase
+
         String url = "jdbc:postgresql://aws-0-us-east-1.pooler.supabase.com:6543/postgres";
         String username = "postgres.ckvkruwhealzwesvzzbn";
         String password = "EnzoFag1807.";
         try {
-            //realizando a conexão
+     
             connection = DriverManager.getConnection(url, username, password);
 
             System.out.println("Deu boa! Banco conectado!🗂");
